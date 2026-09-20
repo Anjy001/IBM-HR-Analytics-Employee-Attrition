@@ -1,0 +1,865 @@
+{
+  "rows": 1470,
+  "columns": 35,
+  "missing_total": 0,
+  "duplicate_rows": 0,
+  "unique_employee_ids": 1470,
+  "constant_columns": [
+    "EmployeeCount",
+    "Over18",
+    "StandardHours"
+  ],
+  "constant_values": {
+    "EmployeeCount": "1",
+    "Over18": "Y",
+    "StandardHours": "80"
+  },
+  "id_columns": [
+    "EmployeeNumber"
+  ],
+  "total_employees": 1470,
+  "attrition_count": 237,
+  "attrition_rate": 16.1,
+  "retention_rate": 83.9,
+  "avg_age": 36.9,
+  "avg_monthly_income": 6503.0,
+  "median_monthly_income": 4919.0,
+  "avg_years_at_company": 7.0,
+  "overtime_rate": 28.3,
+  "avg_job_satisfaction": 2.73,
+  "avg_worklife": 2.76,
+  "avg_job_involvement": 2.73,
+  "attrition_by_jobrole": {
+    "Sales Representative": {
+      "Employees": 83,
+      "Leavers": 33,
+      "AttritionRate": 39.8
+    },
+    "Laboratory Technician": {
+      "Employees": 259,
+      "Leavers": 62,
+      "AttritionRate": 23.9
+    },
+    "Human Resources": {
+      "Employees": 52,
+      "Leavers": 12,
+      "AttritionRate": 23.1
+    },
+    "Sales Executive": {
+      "Employees": 326,
+      "Leavers": 57,
+      "AttritionRate": 17.5
+    },
+    "Research Scientist": {
+      "Employees": 292,
+      "Leavers": 47,
+      "AttritionRate": 16.1
+    },
+    "Healthcare Representative": {
+      "Employees": 131,
+      "Leavers": 9,
+      "AttritionRate": 6.9
+    },
+    "Manufacturing Director": {
+      "Employees": 145,
+      "Leavers": 10,
+      "AttritionRate": 6.9
+    },
+    "Manager": {
+      "Employees": 102,
+      "Leavers": 5,
+      "AttritionRate": 4.9
+    },
+    "Research Director": {
+      "Employees": 80,
+      "Leavers": 2,
+      "AttritionRate": 2.5
+    }
+  },
+  "attrition_by_overtime": {
+    "Yes": {
+      "Employees": 416,
+      "Leavers": 127,
+      "AttritionRate": 30.5
+    },
+    "No": {
+      "Employees": 1054,
+      "Leavers": 110,
+      "AttritionRate": 10.4
+    }
+  },
+  "attrition_by_department": {
+    "Sales": {
+      "Employees": 446,
+      "Leavers": 92,
+      "AttritionRate": 20.6
+    },
+    "Human Resources": {
+      "Employees": 63,
+      "Leavers": 12,
+      "AttritionRate": 19.0
+    },
+    "Research & Development": {
+      "Employees": 961,
+      "Leavers": 133,
+      "AttritionRate": 13.8
+    }
+  },
+  "attrition_by_marital": {
+    "Single": {
+      "Employees": 470,
+      "Leavers": 120,
+      "AttritionRate": 25.5
+    },
+    "Married": {
+      "Employees": 673,
+      "Leavers": 84,
+      "AttritionRate": 12.5
+    },
+    "Divorced": {
+      "Employees": 327,
+      "Leavers": 33,
+      "AttritionRate": 10.1
+    }
+  },
+  "attrition_by_travel": {
+    "Travel_Frequently": {
+      "Employees": 277,
+      "Leavers": 69,
+      "AttritionRate": 24.9
+    },
+    "Travel_Rarely": {
+      "Employees": 1043,
+      "Leavers": 156,
+      "AttritionRate": 15.0
+    },
+    "Non-Travel": {
+      "Employees": 150,
+      "Leavers": 12,
+      "AttritionRate": 8.0
+    }
+  },
+  "attrition_by_joblevel": {
+    "1": {
+      "Employees": 543,
+      "Leavers": 143,
+      "AttritionRate": 26.3
+    },
+    "3": {
+      "Employees": 218,
+      "Leavers": 32,
+      "AttritionRate": 14.7
+    },
+    "2": {
+      "Employees": 534,
+      "Leavers": 52,
+      "AttritionRate": 9.7
+    },
+    "5": {
+      "Employees": 69,
+      "Leavers": 5,
+      "AttritionRate": 7.2
+    },
+    "4": {
+      "Employees": 106,
+      "Leavers": 5,
+      "AttritionRate": 4.7
+    }
+  },
+  "attrition_by_ageband": {
+    "18-25": {
+      "Employees": 123,
+      "Leavers": 44,
+      "AttritionRate": 35.8
+    },
+    "26-35": {
+      "Employees": 606,
+      "Leavers": 116,
+      "AttritionRate": 19.1
+    },
+    "56+": {
+      "Employees": 47,
+      "Leavers": 8,
+      "AttritionRate": 17.0
+    },
+    "46-55": {
+      "Employees": 226,
+      "Leavers": 26,
+      "AttritionRate": 11.5
+    },
+    "36-45": {
+      "Employees": 468,
+      "Leavers": 43,
+      "AttritionRate": 9.2
+    }
+  },
+  "attrition_by_tenureband": {
+    "0-1 yrs": {
+      "Employees": 215,
+      "Leavers": 75,
+      "AttritionRate": 34.9
+    },
+    "2-3 yrs": {
+      "Employees": 255,
+      "Leavers": 47,
+      "AttritionRate": 18.4
+    },
+    "4-5 yrs": {
+      "Employees": 306,
+      "Leavers": 40,
+      "AttritionRate": 13.1
+    },
+    "6-10 yrs": {
+      "Employees": 448,
+      "Leavers": 55,
+      "AttritionRate": 12.3
+    },
+    "11+ yrs": {
+      "Employees": 246,
+      "Leavers": 20,
+      "AttritionRate": 8.1
+    }
+  },
+  "attrition_by_education": {
+    "1 - Below College": {
+      "Employees": 170,
+      "Leavers": 31,
+      "AttritionRate": 18.2
+    },
+    "3 - Bachelor": {
+      "Employees": 572,
+      "Leavers": 99,
+      "AttritionRate": 17.3
+    },
+    "2 - College": {
+      "Employees": 282,
+      "Leavers": 44,
+      "AttritionRate": 15.6
+    },
+    "4 - Master": {
+      "Employees": 398,
+      "Leavers": 58,
+      "AttritionRate": 14.6
+    },
+    "5 - Doctor": {
+      "Employees": 48,
+      "Leavers": 5,
+      "AttritionRate": 10.4
+    }
+  },
+  "attrition_by_distanceband": {
+    "20+": {
+      "Employees": 229,
+      "Leavers": 49,
+      "AttritionRate": 21.4
+    },
+    "10-19": {
+      "Employees": 301,
+      "Leavers": 55,
+      "AttritionRate": 18.3
+    },
+    "3-9": {
+      "Employees": 521,
+      "Leavers": 79,
+      "AttritionRate": 15.2
+    },
+    "0-2": {
+      "Employees": 419,
+      "Leavers": 54,
+      "AttritionRate": 12.9
+    }
+  },
+  "attrition_by_incomeband": {
+    "<3k": {
+      "Employees": 395,
+      "Leavers": 113,
+      "AttritionRate": 28.6
+    },
+    "3k-6k": {
+      "Employees": 519,
+      "Leavers": 66,
+      "AttritionRate": 12.7
+    },
+    "6k-10k": {
+      "Employees": 275,
+      "Leavers": 33,
+      "AttritionRate": 12.0
+    },
+    "10k+": {
+      "Employees": 281,
+      "Leavers": 25,
+      "AttritionRate": 8.9
+    }
+  },
+  "distance_by_role_and_attrition": {
+    "Healthcare Representative": {
+      "No": 9.2,
+      "Yes": 17.7
+    },
+    "Human Resources": {
+      "No": 6.6,
+      "Yes": 13.4
+    },
+    "Laboratory Technician": {
+      "No": 9.3,
+      "Yes": 9.7
+    },
+    "Manager": {
+      "No": 7.9,
+      "Yes": 10.0
+    },
+    "Manufacturing Director": {
+      "No": 9.5,
+      "Yes": 8.8
+    },
+    "Research Director": {
+      "No": 8.5,
+      "Yes": 7.0
+    },
+    "Research Scientist": {
+      "No": 8.9,
+      "Yes": 9.8
+    },
+    "Sales Executive": {
+      "No": 9.0,
+      "Yes": 12.6
+    },
+    "Sales Representative": {
+      "No": 9.0,
+      "Yes": 8.2
+    }
+  },
+  "distance_counts": {
+    "Healthcare Representative": {
+      "No": 122,
+      "Yes": 9
+    },
+    "Human Resources": {
+      "No": 40,
+      "Yes": 12
+    },
+    "Laboratory Technician": {
+      "No": 197,
+      "Yes": 62
+    },
+    "Manager": {
+      "No": 97,
+      "Yes": 5
+    },
+    "Manufacturing Director": {
+      "No": 135,
+      "Yes": 10
+    },
+    "Research Director": {
+      "No": 78,
+      "Yes": 2
+    },
+    "Research Scientist": {
+      "No": 245,
+      "Yes": 47
+    },
+    "Sales Executive": {
+      "No": 269,
+      "Yes": 57
+    },
+    "Sales Representative": {
+      "No": 50,
+      "Yes": 33
+    }
+  },
+  "income_by_education_and_attrition": {
+    "1 - Below College": {
+      "No": 5926.0,
+      "Yes": 4360.0
+    },
+    "2 - College": {
+      "No": 6586.0,
+      "Yes": 4283.0
+    },
+    "3 - Bachelor": {
+      "No": 6883.0,
+      "Yes": 4770.0
+    },
+    "4 - Master": {
+      "No": 7088.0,
+      "Yes": 5335.0
+    },
+    "5 - Doctor": {
+      "No": 8560.0,
+      "Yes": 5850.0
+    }
+  },
+  "overtime_by_role": {
+    "Healthcare Representative": {
+      "Attrition% No": 7.4,
+      "Attrition% Yes": 5.4,
+      "N No": 94,
+      "N Yes": 37
+    },
+    "Human Resources": {
+      "Attrition% No": 17.9,
+      "Attrition% Yes": 38.5,
+      "N No": 39,
+      "N Yes": 13
+    },
+    "Laboratory Technician": {
+      "Attrition% No": 15.7,
+      "Attrition% Yes": 50.0,
+      "N No": 197,
+      "N Yes": 62
+    },
+    "Manager": {
+      "Attrition% No": 1.3,
+      "Attrition% Yes": 14.8,
+      "N No": 75,
+      "N Yes": 27
+    },
+    "Manufacturing Director": {
+      "Attrition% No": 5.7,
+      "Attrition% Yes": 10.3,
+      "N No": 106,
+      "N Yes": 39
+    },
+    "Research Director": {
+      "Attrition% No": 1.8,
+      "Attrition% Yes": 4.3,
+      "N No": 57,
+      "N Yes": 23
+    },
+    "Research Scientist": {
+      "Attrition% No": 7.2,
+      "Attrition% Yes": 34.0,
+      "N No": 195,
+      "N Yes": 97
+    },
+    "Sales Executive": {
+      "Attrition% No": 11.2,
+      "Attrition% Yes": 33.0,
+      "N No": 232,
+      "N Yes": 94
+    },
+    "Sales Representative": {
+      "Attrition% No": 28.8,
+      "Attrition% Yes": 66.7,
+      "N No": 59,
+      "N Yes": 24
+    }
+  },
+  "chi_square": {
+    "Department": {
+      "chi2": 10.8,
+      "p_value": 0.004525606574479633,
+      "dof": 2,
+      "cramers_v": 0.086
+    },
+    "JobRole": {
+      "chi2": 86.19,
+      "p_value": 2.752481638050657e-15,
+      "dof": 8,
+      "cramers_v": 0.242
+    },
+    "OverTime": {
+      "chi2": 87.56,
+      "p_value": 8.15842372153832e-21,
+      "dof": 1,
+      "cramers_v": 0.244
+    },
+    "MaritalStatus": {
+      "chi2": 46.16,
+      "p_value": 9.45551106034083e-11,
+      "dof": 2,
+      "cramers_v": 0.177
+    },
+    "BusinessTravel": {
+      "chi2": 24.18,
+      "p_value": 5.608614476449931e-06,
+      "dof": 2,
+      "cramers_v": 0.128
+    },
+    "JobLevel": {
+      "chi2": 72.53,
+      "p_value": 6.634684715458957e-15,
+      "dof": 4,
+      "cramers_v": 0.222
+    },
+    "Gender": {
+      "chi2": 1.12,
+      "p_value": 0.29057244902890855,
+      "dof": 1,
+      "cramers_v": 0.028
+    },
+    "Education": {
+      "chi2": 3.07,
+      "p_value": 0.5455253376565949,
+      "dof": 4,
+      "cramers_v": 0.046
+    },
+    "EducationField": {
+      "chi2": 16.02,
+      "p_value": 0.006773980139025212,
+      "dof": 5,
+      "cramers_v": 0.104
+    },
+    "JobSatisfaction": {
+      "chi2": 17.51,
+      "p_value": 0.0005563004510387556,
+      "dof": 3,
+      "cramers_v": 0.109
+    },
+    "EnvironmentSatisfaction": {
+      "chi2": 22.5,
+      "p_value": 5.1234689062894205e-05,
+      "dof": 3,
+      "cramers_v": 0.124
+    },
+    "RelationshipSatisfaction": {
+      "chi2": 5.24,
+      "p_value": 0.15497244371052638,
+      "dof": 3,
+      "cramers_v": 0.06
+    },
+    "WorkLifeBalance": {
+      "chi2": 16.33,
+      "p_value": 0.0009725698845348824,
+      "dof": 3,
+      "cramers_v": 0.105
+    },
+    "JobInvolvement": {
+      "chi2": 28.49,
+      "p_value": 2.8631806367134195e-06,
+      "dof": 3,
+      "cramers_v": 0.139
+    },
+    "StockOptionLevel": {
+      "chi2": 60.6,
+      "p_value": 4.379390336108354e-13,
+      "dof": 3,
+      "cramers_v": 0.203
+    },
+    "PerformanceRating": {
+      "chi2": 0.0,
+      "p_value": 0.9900745465934576,
+      "dof": 1,
+      "cramers_v": 0.0
+    }
+  },
+  "ttest": {
+    "Age": {
+      "leaver_mean": 33.61,
+      "stayer_mean": 37.56,
+      "t": -5.83,
+      "p_value": 1.3797600649439802e-08,
+      "cohens_d": -0.438
+    },
+    "DailyRate": {
+      "leaver_mean": 750.36,
+      "stayer_mean": 812.5,
+      "t": -2.18,
+      "p_value": 0.03003953821029318,
+      "cohens_d": -0.154
+    },
+    "DistanceFromHome": {
+      "leaver_mean": 10.63,
+      "stayer_mean": 8.92,
+      "t": 2.89,
+      "p_value": 0.0041365119715114085,
+      "cohens_d": 0.212
+    },
+    "HourlyRate": {
+      "leaver_mean": 65.57,
+      "stayer_mean": 65.95,
+      "t": -0.26,
+      "p_value": 0.7913500922193029,
+      "cohens_d": -0.019
+    },
+    "MonthlyIncome": {
+      "leaver_mean": 4787.09,
+      "stayer_mean": 6832.74,
+      "t": -7.48,
+      "p_value": 4.433588628286069e-13,
+      "cohens_d": -0.44
+    },
+    "MonthlyRate": {
+      "leaver_mean": 14559.31,
+      "stayer_mean": 14265.78,
+      "t": 0.58,
+      "p_value": 0.5653438280020341,
+      "cohens_d": 0.041
+    },
+    "NumCompaniesWorked": {
+      "leaver_mean": 2.94,
+      "stayer_mean": 2.65,
+      "t": 1.57,
+      "p_value": 0.11633402601697646,
+      "cohens_d": 0.118
+    },
+    "PercentSalaryHike": {
+      "leaver_mean": 15.1,
+      "stayer_mean": 15.23,
+      "t": -0.5,
+      "p_value": 0.6144300580581376,
+      "cohens_d": -0.037
+    },
+    "TotalWorkingYears": {
+      "leaver_mean": 8.24,
+      "stayer_mean": 11.86,
+      "t": -7.02,
+      "p_value": 1.1598167528069107e-11,
+      "cohens_d": -0.472
+    },
+    "TrainingTimesLastYear": {
+      "leaver_mean": 2.62,
+      "stayer_mean": 2.83,
+      "t": -2.33,
+      "p_value": 0.020363792126986923,
+      "cohens_d": -0.162
+    },
+    "YearsAtCompany": {
+      "leaver_mean": 5.13,
+      "stayer_mean": 7.37,
+      "t": -5.28,
+      "p_value": 2.2859051752725088e-07,
+      "cohens_d": -0.369
+    },
+    "YearsInCurrentRole": {
+      "leaver_mean": 2.9,
+      "stayer_mean": 4.48,
+      "t": -6.85,
+      "p_value": 3.1873903722051327e-11,
+      "cohens_d": -0.442
+    },
+    "YearsSinceLastPromotion": {
+      "leaver_mean": 1.95,
+      "stayer_mean": 2.23,
+      "t": -1.29,
+      "p_value": 0.19865128276906294,
+      "cohens_d": -0.09
+    },
+    "YearsWithCurrManager": {
+      "leaver_mean": 2.85,
+      "stayer_mean": 4.37,
+      "t": -6.63,
+      "p_value": 1.185021900003063e-10,
+      "cohens_d": -0.43
+    }
+  },
+  "correlation_with_attrition": {
+    "TotalWorkingYears": -0.171,
+    "YearsInCurrentRole": -0.161,
+    "MonthlyIncome": -0.16,
+    "Age": -0.159,
+    "YearsWithCurrManager": -0.156,
+    "YearsAtCompany": -0.134,
+    "TrainingTimesLastYear": -0.059,
+    "DailyRate": -0.057,
+    "YearsSinceLastPromotion": -0.033,
+    "PercentSalaryHike": -0.013,
+    "HourlyRate": -0.007,
+    "MonthlyRate": 0.015,
+    "NumCompaniesWorked": 0.043,
+    "DistanceFromHome": 0.078
+  },
+  "models": [
+    {
+      "model": "Logistic Regression (class_weight=balanced)",
+      "accuracy": 0.765,
+      "precision": 0.375,
+      "recall": 0.702,
+      "f1": 0.489,
+      "roc_auc": 0.829,
+      "pr_auc": 0.525,
+      "cv_roc_auc_mean": 0.83,
+      "cv_roc_auc_std": 0.022,
+      "confusion_matrix": {
+        "tn": 192,
+        "fp": 55,
+        "fn": 14,
+        "tp": 33
+      }
+    },
+    {
+      "model": "Random Forest (class_weight=balanced)",
+      "accuracy": 0.823,
+      "precision": 0.381,
+      "recall": 0.17,
+      "f1": 0.235,
+      "roc_auc": 0.784,
+      "pr_auc": 0.408,
+      "cv_roc_auc_mean": 0.81,
+      "cv_roc_auc_std": 0.033,
+      "confusion_matrix": {
+        "tn": 234,
+        "fp": 13,
+        "fn": 39,
+        "tp": 8
+      }
+    }
+  ],
+  "baseline_accuracy": 0.84,
+  "log_top_positive": [
+    {
+      "Feature": "BusinessTravel_Travel_Frequently",
+      "Coefficient": 0.78,
+      "OddsRatio": 2.181
+    },
+    {
+      "Feature": "OverTime_Yes",
+      "Coefficient": 0.774,
+      "OddsRatio": 2.168
+    },
+    {
+      "Feature": "JobRole_Laboratory Technician",
+      "Coefficient": 0.714,
+      "OddsRatio": 2.043
+    },
+    {
+      "Feature": "YearsAtCompany",
+      "Coefficient": 0.607,
+      "OddsRatio": 1.836
+    },
+    {
+      "Feature": "NumCompaniesWorked",
+      "Coefficient": 0.556,
+      "OddsRatio": 1.743
+    },
+    {
+      "Feature": "BusinessTravel_Travel_Rarely",
+      "Coefficient": 0.537,
+      "OddsRatio": 1.71
+    },
+    {
+      "Feature": "JobRole_Sales Representative",
+      "Coefficient": 0.518,
+      "OddsRatio": 1.679
+    },
+    {
+      "Feature": "JobRole_Sales Executive",
+      "Coefficient": 0.481,
+      "OddsRatio": 1.618
+    },
+    {
+      "Feature": "JobLevel",
+      "Coefficient": 0.461,
+      "OddsRatio": 1.586
+    },
+    {
+      "Feature": "YearsSinceLastPromotion",
+      "Coefficient": 0.437,
+      "OddsRatio": 1.548
+    }
+  ],
+  "log_top_negative": [
+    {
+      "Feature": "TotalWorkingYears",
+      "Coefficient": -0.746,
+      "OddsRatio": 0.474
+    },
+    {
+      "Feature": "TenureBand_11+ yrs",
+      "Coefficient": -0.722,
+      "OddsRatio": 0.486
+    },
+    {
+      "Feature": "EducationField_Life Sciences",
+      "Coefficient": -0.546,
+      "OddsRatio": 0.579
+    },
+    {
+      "Feature": "TenureBand_2-3 yrs",
+      "Coefficient": -0.535,
+      "OddsRatio": 0.586
+    },
+    {
+      "Feature": "JobRole_Research Director",
+      "Coefficient": -0.528,
+      "OddsRatio": 0.59
+    },
+    {
+      "Feature": "EnvironmentSatisfaction",
+      "Coefficient": -0.467,
+      "OddsRatio": 0.627
+    },
+    {
+      "Feature": "TenureBand_4-5 yrs",
+      "Coefficient": -0.466,
+      "OddsRatio": 0.628
+    },
+    {
+      "Feature": "TenureBand_6-10 yrs",
+      "Coefficient": -0.445,
+      "OddsRatio": 0.641
+    },
+    {
+      "Feature": "EducationField_Medical",
+      "Coefficient": -0.441,
+      "OddsRatio": 0.643
+    },
+    {
+      "Feature": "JobSatisfaction",
+      "Coefficient": -0.423,
+      "OddsRatio": 0.655
+    }
+  ],
+  "rf_top_importance": [
+    {
+      "Feature": "MonthlyIncome",
+      "Importance": 0.072
+    },
+    {
+      "Feature": "Age",
+      "Importance": 0.058
+    },
+    {
+      "Feature": "TotalWorkingYears",
+      "Importance": 0.0525
+    },
+    {
+      "Feature": "OverTime_Yes",
+      "Importance": 0.0497
+    },
+    {
+      "Feature": "DailyRate",
+      "Importance": 0.0457
+    },
+    {
+      "Feature": "YearsAtCompany",
+      "Importance": 0.0434
+    },
+    {
+      "Feature": "YearsWithCurrManager",
+      "Importance": 0.041
+    },
+    {
+      "Feature": "MonthlyRate",
+      "Importance": 0.0399
+    },
+    {
+      "Feature": "DistanceFromHome",
+      "Importance": 0.0398
+    },
+    {
+      "Feature": "HourlyRate",
+      "Importance": 0.0396
+    },
+    {
+      "Feature": "StockOptionLevel",
+      "Importance": 0.0359
+    },
+    {
+      "Feature": "NumCompaniesWorked",
+      "Importance": 0.034
+    },
+    {
+      "Feature": "YearsInCurrentRole",
+      "Importance": 0.0306
+    },
+    {
+      "Feature": "PercentSalaryHike",
+      "Importance": 0.0284
+    },
+    {
+      "Feature": "JobLevel",
+      "Importance": 0.0275
+    }
+  ]
+}
